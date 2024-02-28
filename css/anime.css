@@ -1009,3 +1009,37 @@ h2 {
     width: 100%;
     margin: 20px 0px;
 }
+.ep-divo-lower {
+    max-height: 320px;
+    overflow-y: auto;
+    background-color: unset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    transition: all 0.5s linear;
+}
+
+.ep-divo-outer {
+    background-color: #6a6c6e;
+    width: 90%;
+    max-width: 770px;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.ep-btn {
+    background-color: #19191a;
+    color: white;
+    display: block;
+
+}
+
+.ep-divo-outer h2 {
+    color: white;
+    margin-left: 15px;
+}
+
+.ep-btn:hover {
+    background-color: #3c7de6;
+}
