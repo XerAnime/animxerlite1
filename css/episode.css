@@ -1810,6 +1810,17 @@ h2 {
     min-width: 40px;
     border: none;
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .ep-divo-lower {
     max-height: 320px;
     overflow-y: auto;
@@ -1843,4 +1854,4 @@ h2 {
 
 .ep-btn:hover {
     background-color: #3c7de6;
-    }
+}
