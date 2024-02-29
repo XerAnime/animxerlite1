@@ -129,6 +129,16 @@
 
         <section id="watch">
             <div class="divo">
+                <!-- Episode Slider Start -->
+                <div id="slider-main" class="slider-main" style="display: none;">
+                    <div id="slider-carousel" class="slider-carousel">
+                        <div id="ep-slider" class="ep-slider"></div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(+1)">❯</a>
+                </div>
+                <!-- Episode Slider End -->
+                
                 <!-- Episode List Start -->
                 <div class="ep-divo-outer">
                     <section>
@@ -141,11 +151,14 @@
                 <!-- Episode List End -->
             </div>
         </section>
-        
-        <section>
+
+        <section id="similar-div">
             <div class="divox">
                 <h2 id="latest">Similar Animes</h2>
-                <div id="latest2">DISPLAY_ANIME</div>
+                <div id="load" class="sload" style="display: none;">
+                    <img src="./static/loading2.gif" alt="Loading..." />
+                </div>
+                <div id="latest2"></div>
             </div>
         </section>
     </div>
