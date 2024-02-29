@@ -118,10 +118,20 @@ function showDownload() {
 }
 
 // Function to get episode list
-async function getEpList(anime_id) {
-    const data = (await getJson(animeapi + anime_id))["results"];
 
-    const total = data["episodes"];
+}
+
+// Function to get download links
+async function getDownloadLinks(anime, episode) {
+    const data = (await getJson(dlapi + anime + "-episode-" + episode))[
+        "results"
+    ];
+    let html = "";
+
+    for (const [key, value] of Object.entries(data)) {
+        const quality = key.split("x")[1];
+        const url = value;
+        html += `<div class="sitem"> <a class="sobtnasync function getEpList(total) {
     const TotalEp = total.length;
     let html = "";
     let loadedFirst = false;
@@ -154,7 +164,6 @@ async function getEpList(anime_id) {
     }
     document.getElementById('ep-upper-div').innerHTML = html;
     console.log("Episode list loaded");
-    return total;
 }
 
 async function getEpLowerList(start, end, animeid) {
@@ -174,20 +183,7 @@ async function getEpLowerList(start, end, animeid) {
 
 async function episodeSelectChange(elem){
     var option = elem.options[elem.selectedIndex];
-    getEpLowerList(parseInt(option.getAttribute('data-from')),parseInt(option.getAttribute('data-to')),option.getAttribute('data-id'))
-}
-
-// Function to get download links
-async function getDownloadLinks(anime, episode) {
-    const data = (await getJson(dlapi + anime + "-episode-" + episode))[
-        "results"
-    ];
-    let html = "";
-
-    for (const [key, value] of Object.entries(data)) {
-        const quality = key.split("x")[1];
-        const url = value;
-        html += `<div class="sitem"> <a class="sobtn download" target="_blank" href="${url}"><i class="fa fa-download"></i>${quality}p</a> </div>`;
+    getEpLowerList(parseInt(option.getAttribute('data-from')),parseInt(option.getAttribute('data-to')),option.getAttribute('data-id')) download" target="_blank" href="${url}"><i class="fa fa-download"></i>${quality}p</a> </div>`;
     }
     document.getElementById("dllinks").innerHTML = html;
 }
