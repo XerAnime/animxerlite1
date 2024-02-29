@@ -14,7 +14,9 @@ body {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
-    background-color: #282828;
+    background-color: #131314;
+    scroll-behavior: smooth;
+    user-select: none;
 }
 
 header {
@@ -22,7 +24,7 @@ header {
 }
 
 footer {
-    background: #3349eb;
+    background: #eb3349;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -55,7 +57,7 @@ footer a {
 }
 
 #head-div {
-    background: linear-gradient(to right, #3349eb 40%, #3349eb);
+    background: linear-gradient(to right, #eb3349 40%, #f45c43);
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -68,7 +70,7 @@ footer a {
 }
 
 h1 {
-    color: #3349eb;
+    color: #eb3349;
     font-family: "Poppins", sans-serif;
 }
 
@@ -581,6 +583,8 @@ h2 {
     margin: 0px 2px;
     margin-bottom: 10px;
     display: inline-block;
+    width: 70px;
+    text-align: center;
 }
 
 .la-anime {
@@ -879,8 +883,7 @@ h2 {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw0aXpsog.woff2)
-        format("woff2");
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw0aXpsog.woff2) format("woff2");
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
         U+FE2E-FE2F;
 }
@@ -889,8 +892,7 @@ h2 {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw9aXpsog.woff2)
-        format("woff2");
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw9aXpsog.woff2) format("woff2");
     unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
@@ -898,8 +900,7 @@ h2 {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw2aXpsog.woff2)
-        format("woff2");
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw2aXpsog.woff2) format("woff2");
     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
         U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
@@ -908,8 +909,7 @@ h2 {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aXpsog.woff2)
-        format("woff2");
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aXpsog.woff2) format("woff2");
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
         U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -918,8 +918,7 @@ h2 {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2)
-        format("woff2");
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format("woff2");
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
         U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
         U+2215, U+FEFF, U+FFFD;
@@ -929,8 +928,7 @@ h2 {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKOzY.woff2)
-        format("woff2");
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format("woff2");
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
         U+FE2E-FE2F;
 }
@@ -939,8 +937,7 @@ h2 {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKOzY.woff2)
-        format("woff2");
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format("woff2");
     unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
@@ -948,8 +945,7 @@ h2 {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKOzY.woff2)
-        format("woff2");
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format("woff2");
     unicode-range: U+1F00-1FFF;
 }
 
@@ -957,8 +953,7 @@ h2 {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKOzY.woff2)
-        format("woff2");
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format("woff2");
     unicode-range: U+0370-03FF;
 }
 
@@ -966,8 +961,7 @@ h2 {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKOzY.woff2)
-        format("woff2");
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format("woff2");
     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
         U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
@@ -976,8 +970,7 @@ h2 {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKOzY.woff2)
-        format("woff2");
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format("woff2");
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
         U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -986,8 +979,7 @@ h2 {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2)
-        format("woff2");
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2");
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
         U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
         U+2215, U+FEFF, U+FFFD;
@@ -1010,6 +1002,137 @@ h2 {
     margin: 20px 0px;
 }
 
+.container {
+    display: none;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    background-color: #fff;
+    font-family: 'Roboto';
+}
+
+.container h6 {
+    color: #721c24;
+    font-size: x-large;
+}
+
+.container p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.container a {
+    color: #721c24;
+    text-decoration: underline;
+}
+
+.ep-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.5s;
+    border: none;
+}
+
+
+.ep-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    bottom: 33px;
+    color: rgba(237, 241, 245, .91);
+    background-color: rgba(31, 38, 49, 0.7);
+    padding: 5px 10px;
+    font-family: "Montserrat", sans-serif
+}
+
+.ep-slide {
+    height: 100px;
+    width: 175px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    overflow: hidden;
+}
+
+.ep-slider {
+    height: 100px;
+    width: max-content;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.slider-carousel {
+    overflow-x: auto;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px
+}
+
+.prev,
+.next {
+    z-index: 5;
+}
+
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.slider-main {
+    position: relative;
+}
+
+
+.ep-divo-upper {
+    border:none;
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5px;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+.ep-divo-upper option {
+    width: 120px;
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -1024,14 +1147,15 @@ h2 {
     max-height: 320px;
     overflow-y: auto;
     background-color: unset;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+    place-items: center;
+    grid-gap: 10px;
     transition: all 0.5s linear;
 }
 
 .ep-divo-outer {
-    background-color: #6a6c6e;
+    background-color: #27272c;
     width: 90%;
     max-width: 770px;
     margin: 20px auto;
@@ -1039,11 +1163,15 @@ h2 {
     padding-top: 5px;
 }
 
+.ep-divo-outer section{
+    display:flex;
+    flex-direction:row;
+}
+
 .ep-btn {
-    background-color: #19191a;
+    background-color: #454444;
     color: white;
     display: block;
-
 }
 
 .ep-divo-outer h2 {
@@ -1052,5 +1180,5 @@ h2 {
 }
 
 .ep-btn:hover {
-    background-color: #3c7de6;
+    background-color: #eb001f;
 }
