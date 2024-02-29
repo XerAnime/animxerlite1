@@ -59,51 +59,66 @@
         </div>
     </header>
 
-    <section id="vid-sec">
-        <div id="vid-div">
-            <div id="video">
-                <iframe id="AnimeDexFrame" src="" style="border: 0px #ffffff none" scrolling="no" frameborder="0"
-                    marginheight="0px" marginwidth="0px" allowfullscreen></iframe>
-            </div>
-        </div>
-
-        <div id="server_main">
-            <div class="status">
-                <div class="scontent">
-                    You are watching <b id="ep-name">{{ title }}</b>If current server
-                    doesn't work please try other servers beside.
+    <div id="main-section" style="opacity: 0;display: none;">
+        <section id="vid-sec">
+            <div id="vid-div">
+                <div id="video">
+                    <iframe id="AnimeDexFrame" src="" style="border: 0px #ffffff none" scrolling="no" frameborder="0"
+                        marginheight="0px" marginwidth="0px" allowfullscreen></iframe>
                 </div>
             </div>
 
-            <div class="server">
-                <div class="stitle">
-                    <i class="fa fa-microphone"></i>
-
-                    Servers:
+            <div id="server_main">
+                <div class="status">
+                    <div class="scontent">
+                        You are watching <b id="ep-name">
+                            <h1>{{ title }}</h1>
+                        </b>If
+                        current server doesn't work please try other servers
+                        beside.
+                    </div>
                 </div>
-                <div id="serversbtn" class="slist"></div>
-            </div>
-
-            <a id="showdl" onclick="showDownload()"><i class="fa fa-download"></i>Download</a>
-            <div id="dldiv" class="dldiv">
-                <h4 id="download">Download Links:</h4>
 
                 <div class="server">
-                    <div class="stitle"> <i class="fa fa-closed-captioning"></i>Quality: </div>
-                    <div id="dllinks" class="slist">
-                        <div id="load">
-                            <img src="https://cdn.jsdelivr.net/gh/TechShreyash/AnimeDex@main/static/img/loading2.gif"
-                                alt="Loading..." />
+                    <div class="stitle">
+                        <i class="fa fa-microphone"></i>
+
+                        Servers:
+                    </div>
+                    <div id="serversbtn" class="slist"></div>
+                </div>
+
+                <a id="showdl" onclick="showDownload()"><i class="fa fa-download"></i>Download</a>
+                <div id="dldiv" class="dldiv">
+                    <h4 id="download">Download Links:</h4>
+
+                    <div class="server">
+                        <div class="stitle">
+                            <i class="fa fa-closed-captioning"></i>Quality:
+                        </div>
+                        <div id="dllinks" class="slist">
+                            <div id="load">
+                                <img src="./static/loading2.gif" alt="Loading..." />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="watch"
-        <div class="selector link-data">PROSLO</div>
-        <div class="divo">
-            <!-- Episode List Start -->
+        </section>
+
+        <section id="watch">
+            <div class="divo">
+                <!-- Episode Slider Start -->
+                <div id="slider-main" class="slider-main" style="display: none;">
+                    <div id="slider-carousel" class="slider-carousel">
+                        <div id="ep-slider" class="ep-slider"></div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(+1)">❯</a>
+                </div>
+                <!-- Episode Slider End -->
+
+                <!-- Episode List Start -->
                 <div class="ep-divo-outer">
                     <section>
                         <h2>List Of Episodes:</h2>
@@ -116,7 +131,7 @@
             </div>
         </section>
 
-       </div>
+    </div>
     <hr />
     <footer>
         <div>
