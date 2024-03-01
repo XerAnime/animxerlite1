@@ -65,11 +65,11 @@ async function loadVideo(name, stream) {
         const serversbtn = document.getElementById("serversbtn");
 
         let url = stream["sources"][0]["file"];
-        serversbtn.innerHTML += `<div class="sitem"> <a class="sobtn sactive" onclick="selectServer(this)" data-value="./embed.html?url=${url}&id=${episodeid}">Xer Player1</a> </div>`;
+        serversbtn.innerHTML += `<div class="sitem"> <a class="sobtn sactive" onclick="selectServer(this)" data-value="./embed.html?url=${url}&id=${episodeid}">AnimXer Player1</a> </div>`;
         document.getElementsByClassName("sactive")[0].click();
 
         url = stream["sources_bk"][0]["file"];
-        serversbtn.innerHTML += `<div class="sitem"> <a class="sobtn" onclick="selectServer(this)" data-value="./embed.html?url=${url}&id=${episodeid}">Xer Player2</a> </div>`;
+        serversbtn.innerHTML += `<div class="sitem"> <a class="sobtn" onclick="selectServer(this)" data-value="./embed.html?url=${url}&id=${episodeid}">AnimXer Player2</a> </div>`;
 
         return true;
     } catch (err) {
@@ -87,7 +87,7 @@ async function loadServers(servers, success = true) {
         if (key != 'vidcdn') {
             key = capitalizeFirstLetter(key);
             if (key == 'Streamwish') {
-                html += `<div class="sitem"> <a class="sobtn" onclick="selectServer(this,true)" data-value="${value}">Xer Player3</a> </div>`;
+                html += `<div class="sitem"> <a class="sobtn" onclick="selectServer(this,true)" data-value="${value}">AnimXer Player3</a> </div>`;
             } else {
                 html += `<div class="sitem"> <a class="sobtn" onclick="selectServer(this)" data-value="${value}">${key}</a> </div>`;
             }
