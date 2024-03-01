@@ -57,7 +57,7 @@ footer a {
 }
 
 #head-div {
-    background: linear-gradient(to right, #eb3349 40%, #0026ff);
+    background: linear-gradient(to right, #0026ff 40%, #0026ff);
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -1120,7 +1120,7 @@ h2 {
 
 .ep-divo-upper {
     border:none;
-    background-color: orange;
+    background-color: #0026ff;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -1180,5 +1180,5 @@ h2 {
 }
 
 .ep-btn:hover {
-    background-color: #eb001f;
+    background-color: #0026ff;
 }
