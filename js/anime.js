@@ -8,7 +8,7 @@ const recommendationsapi = "/recommendations/";
 
 const AvailableServers = [
     "https://animedexapi.xeranime707.workers.dev",
-    "https://animedexapi.xeranime707.workers.dev",
+    "https://animedexapi.rexcalumba86.workers.dev",
     "https://animedexapi.xeranime707.workers.dev",
 ];
 
