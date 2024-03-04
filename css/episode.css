@@ -10,7 +10,7 @@ header {
 }
 
 footer {
-    background: #0026ff;
+    background: #eb3349;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -43,7 +43,7 @@ footer a {
 }
 
 #head-div {
-    background: linear-gradient(to right, #0026ff 40%, #0026ff);
+    background: linear-gradient(to right, #eb3349 40%, #f45c43);
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -429,7 +429,7 @@ header {
 }
 
 footer {
-    background: #0026ff;
+    background: #eb3349;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -462,7 +462,7 @@ footer a {
 }
 
 #head-div {
-    background: linear-gradient(to right, #0026ff 40%, #0026ff);
+    background: linear-gradient(to right, #eb3349 40%, #f45c43);
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -841,7 +841,7 @@ div {
 
 html,
 body {
-    background-color: #0026ff;
+    background-color: #282828;
 }
 
 header {
@@ -849,7 +849,7 @@ header {
 }
 
 footer {
-    background: #0026ff;
+    background: #eb3349;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -882,7 +882,7 @@ footer a {
 }
 
 #head-div {
-    background: linear-gradient(to right, #0026ff 40%, #0026ff);
+    background: linear-gradient(to right, #eb3349 40%, #f45c43);
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -1913,15 +1913,12 @@ h2 {
 #main-section {
     transition: all 0.5s ease;
 }
+
 .ep-divo-upper {
-    border:none;
-    background-color: #268bff;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 5px;
-    padding: 5px 15px;
-    text-align: left;
+    border: none;
+    background-color: orange;
+    margin: 5px 10px 10px 10px;
+    padding: 10px 15px;
 }
 
 .ep-divo-upper option {
@@ -1957,9 +1954,10 @@ h2 {
     border-radius: 5px;
     padding-top: 5px;
 }
-.ep-divo-outer section{
-    display:flex;
-    flex-direction:row;
+
+.ep-divo-outer section {
+    display: flex;
+    flex-direction: row;
 }
 
 .ep-btn {
@@ -1974,5 +1972,13 @@ h2 {
 }
 
 .ep-btn:hover {
-    background-color: #0026ff;
+    background-color: #eb001f;
+}
+
+.ep-btn-playing {
+    background-color: #eb001f;
+}
+
+* {
+    transition: opacity 0.5s ease;
 }
