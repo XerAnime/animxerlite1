@@ -10,7 +10,7 @@ header {
 }
 
 footer {
-    background: #eb3349;
+    background: #0026ff;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -43,7 +43,7 @@ footer a {
 }
 
 #head-div {
-    background: linear-gradient(to right, #eb3349 40%, #f45c43);
+    background: linear-gradient(to right, #0026ff 40%, #0026ff);
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -429,7 +429,7 @@ header {
 }
 
 footer {
-    background: #eb3349;
+    background: #0026ff;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -462,7 +462,7 @@ footer a {
 }
 
 #head-div {
-    background: linear-gradient(to right, #eb3349 40%, #f45c43);
+    background: linear-gradient(to right, #0026ff 40%, #0026ff);
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -849,7 +849,7 @@ header {
 }
 
 footer {
-    background: #eb3349;
+    background: #0026ff;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -882,7 +882,7 @@ footer a {
 }
 
 #head-div {
-    background: linear-gradient(to right, #eb3349 40%, #f45c43);
+    background: linear-gradient(to right, #0026ff 40%, #0026ff);
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -1916,7 +1916,7 @@ h2 {
 
 .ep-divo-upper {
     border: none;
-    background-color: orange;
+    background-color: #268bff;
     margin: 5px 10px 10px 10px;
     padding: 10px 15px;
 }
@@ -1972,11 +1972,11 @@ h2 {
 }
 
 .ep-btn:hover {
-    background-color: #eb001f;
+    background-color: #0026ff;
 }
 
 .ep-btn-playing {
-    background-color: #eb001f;
+    background-color: #0026ff;
 }
 
 * {
