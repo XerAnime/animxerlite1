@@ -7,9 +7,9 @@ const recommendationsapi = "/recommendations/";
 // Api Server Manager
 
 const AvailableServers = [
-    "https://animedexapi.xeranime707.workers.dev/",
-    "https://animedexapi.xeranime707.workers.dev/",
-    "https://animedexapi.xeranime707.workers.dev/",
+    "https://animedexapi.xeranime707.workers.dev",
+    "https://animedexapi.xeranime707.workers.dev",
+    "https://animedexapi.xeranime707.workers.dev",
 ];
 
 function getApiServer() {
