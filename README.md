@@ -4,12 +4,9 @@
 <h2 align="center"><a href="https://animxer.xyz"><b>Watch Animes Online For Free</b></a></h4>
 
 
-<h1 align="center"><b>AnimeDexLite v2.0</b></h1>
+<h1 align="center"><b>AnimXer v3.1</b></h1>
 
 -   Pure html, css and js version of AnimeDex
 -   Lite Weight, Fast and Free
 -   Easy to deploy
 -   Powered By Blazing Fast [AnimeDexApi](https://api.anime-dex.workers.dev)
-
-## Demo
-
