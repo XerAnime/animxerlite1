@@ -1,4 +1,4 @@
-home = "https://gogoanime3.net"
+home = "https://gogoanime3.co"
 host = "https://animxer.xyz"
 
 import requests
