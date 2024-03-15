@@ -24,7 +24,7 @@ header {
 }
 
 footer {
-    background: #0026ff;
+    background: #eb3349;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -57,10 +57,9 @@ footer a {
 }
 
 #head-div {
-    background: linear-gradient(to right, #0026ff 40%, #0026ff);
+    background: linear-gradient(to right, #eb3349 40%, #f45c43);
     width: 100%;
     text-align: center;
-    padding-top: 25px;
     height: 86px;
     margin: auto;
     font-family: "Roboto", sans-serif;
@@ -70,7 +69,7 @@ footer a {
 }
 
 h1 {
-    color: #0026ff;
+    color: #eb3349;
     font-family: "Poppins", sans-serif;
 }
 
@@ -1119,14 +1118,10 @@ h2 {
 
 
 .ep-divo-upper {
-    border:none;
-    background-color: #268bff;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 5px;
-    padding: 5px 15px;
-    text-align: left;
+    border: none;
+    background-color: orange;
+    margin: 5px 10px 10px 10px;
+    padding: 10px 15px;
 }
 
 .ep-divo-upper option {
@@ -1163,9 +1158,9 @@ h2 {
     padding-top: 5px;
 }
 
-.ep-divo-outer section{
-    display:flex;
-    flex-direction:row;
+.ep-divo-outer section {
+    display: flex;
+    flex-direction: row;
 }
 
 .ep-btn {
@@ -1180,5 +1175,23 @@ h2 {
 }
 
 .ep-btn:hover {
-    background-color: #0026ff;
+    background-color: #eb001f;
 }
+
+#title1 {
+    width: 70%;
+    height: 86px
+}
+
+#title1 a {
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 520px) {
+    #title1 img {
+        height: 55px;
+    }
+    }
