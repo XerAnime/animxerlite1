@@ -5,7 +5,7 @@ const searchapi = "/search/";
 
 // Api Server Manager
 
-const AvailableServers = ['https://animedexapi.xeranime707.workers.dev', 'https://animedexapi.rexcalumba86.workers.dev', 'https://animedexapi.rexcalumba86.workers.dev']
+const AvailableServers = ['https://animedexapi.xeranime707.workers.dev', 'https://animedexapi.rexcalumba86.workers.dev', 'https://animxer-api1.xeranime707.workers.dev']
 
 function getApiServer() {
     return AvailableServers[Math.floor(Math.random() * AvailableServers.length)]
