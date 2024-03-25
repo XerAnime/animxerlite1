@@ -10,7 +10,7 @@ const dlapi = "/download/";
 const AvailableServers = [
     "https://animedexapi.rexcalumba86.workers.dev",
     "https://animedexapi.xeranime707.workers.dev",
-    "https://animedexapi.rexcalumba86.workers.dev",
+    "https://animxer-api1.xeranime707.workers.dev",
 ];
 
 function getApiServer() {
