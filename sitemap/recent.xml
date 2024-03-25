@@ -6,6 +6,10 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     
         <url>
+            <loc>https://animxer.xyz/anime.html?anime=baijia-jue-jianghu-gui-shi-lu</loc>
+        </url>
+        
+        <url>
             <loc>https://animxer.xyz/anime.html?anime=sengoku-youko</loc>
         </url>
         
@@ -159,9 +163,5 @@
         
         <url>
             <loc>https://animxer.xyz/anime.html?anime=the-idolmster-million-live</loc>
-        </url>
-        
-        <url>
-            <loc>https://animxer.xyz/anime.html?anime=tearmoon-teikoku-monogatari-dantoudai-kara-hajimaru-hime-no-tensei-gyakuten-story</loc>
         </url>
         </urlset>
