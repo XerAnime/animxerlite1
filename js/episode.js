@@ -7,7 +7,7 @@ const dlapi = "/download/";
 
 // Api Server Manager
 
-const AvailableServers = ["anixer.xeranime707.workers.dev"];
+const AvailableServers = ["https://api.druvx13.workers.dev"];
 
 function getApiServer() {
     return AvailableServers[Math.floor(Math.random() * AvailableServers.length)];
