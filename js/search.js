@@ -1,11 +1,11 @@
 // Api urls
 
-const ProxyApi = "proxy1.xeranime707.workers.dev/?u=";
+const ProxyApi = "https://animanga-proxy.druvx13.workers.dev/?u=";
 const searchapi = "/search/";
 
 // Api Server Manager
 
-const AvailableServers = ["https://animxer-api1.xeranime707.workers.dev",];
+const AvailableServers = ["anixer.xeranime707.workers.dev"];
 
 function getApiServer() {
     return AvailableServers[Math.floor(Math.random() * AvailableServers.length)];
