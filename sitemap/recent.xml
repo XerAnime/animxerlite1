@@ -6,6 +6,18 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     
         <url>
+            <loc>https://animxer.xyz/anime.html?anime=the-idolmster-shiny-colors</loc>
+        </url>
+        
+        <url>
+            <loc>https://animxer.xyz/anime.html?anime=kaijuu-8-gou</loc>
+        </url>
+        
+        <url>
+            <loc>https://animxer.xyz/anime.html?anime=bartender-kami-no-glass</loc>
+        </url>
+        
+        <url>
             <loc>https://animxer.xyz/anime.html?anime=baijia-jue-jianghu-gui-shi-lu</loc>
         </url>
         
@@ -23,6 +35,10 @@
         
         <url>
             <loc>https://animxer.xyz/anime.html?anime=momochi-san-chi-no-ayakashi-ouji</loc>
+        </url>
+        
+        <url>
+            <loc>https://animxer.xyz/anime.html?anime=sasayaku-you-ni-koi-wo-utau</loc>
         </url>
         
         <url>
@@ -147,21 +163,5 @@
         
         <url>
             <loc>https://animxer.xyz/anime.html?anime=dog-signal</loc>
-        </url>
-        
-        <url>
-            <loc>https://animxer.xyz/anime.html?anime=good-night-world</loc>
-        </url>
-        
-        <url>
-            <loc>https://animxer.xyz/anime.html?anime=dead-mount-death-play-part-2</loc>
-        </url>
-        
-        <url>
-            <loc>https://animxer.xyz/anime.html?anime=kawagoe-boys-sing</loc>
-        </url>
-        
-        <url>
-            <loc>https://animxer.xyz/anime.html?anime=the-idolmster-million-live</loc>
         </url>
         </urlset>
