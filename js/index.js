@@ -6,7 +6,7 @@ const recentapi = "/recent/";
 
 // Api Server Manager
 
-const AvailableServers = ["https://api.druvx13.workers.dev"];
+const AvailableServers = ["https://api3.xeranime707.workers.dev"];
 
 function getApiServer() {
     return AvailableServers[Math.floor(Math.random() * AvailableServers.length)];
